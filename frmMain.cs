@@ -330,7 +330,7 @@ namespace iMU_Tool
 
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            this.Location = Properties.Settings.Default.Location;
+            Location = Properties.Settings.Default.Location;
 
             button1.Image = resizeImage(Properties.Resources.icon_key, button1.Size.Width / 2);
             button2.Image = resizeImage(Properties.Resources.icon_edit, button2.Size.Width / 2);
@@ -345,13 +345,7 @@ namespace iMU_Tool
             Bitmap resized = new Bitmap(sourceImg, resize);
             return resized;
         }
-
-        private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Properties.Settings.Default.Location = this.Location;
-            Properties.Settings.Default.Save();
-        }
-
+        
         private void Button1_Click(object sender, EventArgs e)
         {
             tabControl1.SelectedIndex = 0;
@@ -376,5 +370,10 @@ namespace iMU_Tool
             button1.BackColor = Color.FromArgb(17, 17, 17);
         }
 
+        private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.Location = this.Location;
+            Properties.Settings.Default.Save();
+        }
     }
 }

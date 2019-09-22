@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMU Tool", "iMU Tool\iMU Tool.csproj", "{9EF879EF-DD12-48FC-8B7D-1909DB297FF6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iMU Tool", "iMU Tool.csproj", "{9EF879EF-DD12-48FC-8B7D-1909DB297FF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3B01F2F1-5CEE-4A31-AAE4-A46089640C77}
+		SolutionGuid = {14302883-F915-4BDA-9E81-5ACDCFC3B769}
 	EndGlobalSection
 EndGlobal

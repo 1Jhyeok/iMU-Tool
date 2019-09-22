@@ -80,9 +80,10 @@
             this.btn_Bnet2.Name = "btn_Bnet2";
             this.btn_Bnet2.Size = new System.Drawing.Size(95, 42);
             this.btn_Bnet2.Style = MetroFramework.MetroColorStyle.Teal;
-            this.btn_Bnet2.TabIndex = 2;
+            this.btn_Bnet2.TabIndex = 1;
             this.btn_Bnet2.Text = "2";
             this.btn_Bnet2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_Bnet2.UseSelectable = true;
             // 
             // btn_Bnet4
             // 
@@ -90,9 +91,10 @@
             this.btn_Bnet4.Name = "btn_Bnet4";
             this.btn_Bnet4.Size = new System.Drawing.Size(95, 42);
             this.btn_Bnet4.Style = MetroFramework.MetroColorStyle.Teal;
-            this.btn_Bnet4.TabIndex = 2;
+            this.btn_Bnet4.TabIndex = 3;
             this.btn_Bnet4.Text = "4";
             this.btn_Bnet4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_Bnet4.UseSelectable = true;
             // 
             // btn_Bnet6
             // 
@@ -100,9 +102,10 @@
             this.btn_Bnet6.Name = "btn_Bnet6";
             this.btn_Bnet6.Size = new System.Drawing.Size(95, 42);
             this.btn_Bnet6.Style = MetroFramework.MetroColorStyle.Teal;
-            this.btn_Bnet6.TabIndex = 2;
+            this.btn_Bnet6.TabIndex = 5;
             this.btn_Bnet6.Text = "6";
             this.btn_Bnet6.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_Bnet6.UseSelectable = true;
             // 
             // btn_Bnet8
             // 
@@ -111,8 +114,9 @@
             this.btn_Bnet8.Size = new System.Drawing.Size(95, 42);
             this.btn_Bnet8.Style = MetroFramework.MetroColorStyle.Teal;
             this.btn_Bnet8.TabIndex = 2;
-            this.btn_Bnet8.Text = "8";
+            this.btn_Bnet8.Text = "7";
             this.btn_Bnet8.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_Bnet8.UseSelectable = true;
             // 
             // btn_Bnet7
             // 
@@ -121,8 +125,9 @@
             this.btn_Bnet7.Size = new System.Drawing.Size(95, 42);
             this.btn_Bnet7.Style = MetroFramework.MetroColorStyle.Teal;
             this.btn_Bnet7.TabIndex = 2;
-            this.btn_Bnet7.Text = "7";
+            this.btn_Bnet7.Text = "6";
             this.btn_Bnet7.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_Bnet7.UseSelectable = true;
             // 
             // btn_Bnet5
             // 
@@ -130,9 +135,10 @@
             this.btn_Bnet5.Name = "btn_Bnet5";
             this.btn_Bnet5.Size = new System.Drawing.Size(95, 42);
             this.btn_Bnet5.Style = MetroFramework.MetroColorStyle.Teal;
-            this.btn_Bnet5.TabIndex = 2;
+            this.btn_Bnet5.TabIndex = 4;
             this.btn_Bnet5.Text = "5";
             this.btn_Bnet5.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_Bnet5.UseSelectable = true;
             // 
             // btn_Bnet3
             // 
@@ -143,6 +149,7 @@
             this.btn_Bnet3.TabIndex = 2;
             this.btn_Bnet3.Text = "3";
             this.btn_Bnet3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_Bnet3.UseSelectable = true;
             // 
             // btn_Bnet1
             // 
@@ -150,9 +157,10 @@
             this.btn_Bnet1.Name = "btn_Bnet1";
             this.btn_Bnet1.Size = new System.Drawing.Size(95, 42);
             this.btn_Bnet1.Style = MetroFramework.MetroColorStyle.Teal;
-            this.btn_Bnet1.TabIndex = 2;
+            this.btn_Bnet1.TabIndex = 0;
             this.btn_Bnet1.Text = "bnet1";
             this.btn_Bnet1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_Bnet1.UseSelectable = true;
             // 
             // btn_PUBG_Restore
             // 
@@ -160,19 +168,21 @@
             this.btn_PUBG_Restore.Name = "btn_PUBG_Restore";
             this.btn_PUBG_Restore.Size = new System.Drawing.Size(95, 42);
             this.btn_PUBG_Restore.Style = MetroFramework.MetroColorStyle.Teal;
-            this.btn_PUBG_Restore.TabIndex = 3;
+            this.btn_PUBG_Restore.TabIndex = 4;
             this.btn_PUBG_Restore.Text = "PUBG 복원";
             this.btn_PUBG_Restore.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_PUBG_Restore.UseSelectable = true;
             // 
             // btn_overwatch_restore
             // 
-            this.btn_overwatch_restore.Location = new System.Drawing.Point(3, 104);
+            this.btn_overwatch_restore.Location = new System.Drawing.Point(205, 8);
             this.btn_overwatch_restore.Name = "btn_overwatch_restore";
             this.btn_overwatch_restore.Size = new System.Drawing.Size(95, 42);
             this.btn_overwatch_restore.Style = MetroFramework.MetroColorStyle.Teal;
-            this.btn_overwatch_restore.TabIndex = 3;
+            this.btn_overwatch_restore.TabIndex = 2;
             this.btn_overwatch_restore.Text = "오버워치 설정";
             this.btn_overwatch_restore.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_overwatch_restore.UseSelectable = true;
             this.btn_overwatch_restore.Click += new System.EventHandler(this.Btn_overwatch_restore_Click);
             // 
             // btn_PUBG_Backup
@@ -184,6 +194,7 @@
             this.btn_PUBG_Backup.TabIndex = 3;
             this.btn_PUBG_Backup.Text = "PUBG 백업";
             this.btn_PUBG_Backup.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_PUBG_Backup.UseSelectable = true;
             // 
             // btn_Update
             // 
@@ -191,9 +202,10 @@
             this.btn_Update.Name = "btn_Update";
             this.btn_Update.Size = new System.Drawing.Size(95, 42);
             this.btn_Update.Style = MetroFramework.MetroColorStyle.Teal;
-            this.btn_Update.TabIndex = 3;
+            this.btn_Update.TabIndex = 1;
             this.btn_Update.Text = "업데이트";
             this.btn_Update.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_Update.UseSelectable = true;
             this.btn_Update.Click += new System.EventHandler(this.Btn_Update_Click);
             // 
             // btn_RunBnet
@@ -202,9 +214,10 @@
             this.btn_RunBnet.Name = "btn_RunBnet";
             this.btn_RunBnet.Size = new System.Drawing.Size(95, 42);
             this.btn_RunBnet.Style = MetroFramework.MetroColorStyle.Teal;
-            this.btn_RunBnet.TabIndex = 3;
+            this.btn_RunBnet.TabIndex = 0;
             this.btn_RunBnet.Text = "배틀넷 실행";
             this.btn_RunBnet.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.btn_RunBnet.UseSelectable = true;
             // 
             // metroStyleManager1
             // 
@@ -334,6 +347,7 @@
             this.editButton1.TabIndex = 3;
             this.editButton1.Text = "edit1";
             this.editButton1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.editButton1.UseSelectable = true;
             // 
             // editButton2
             // 
@@ -344,6 +358,7 @@
             this.editButton2.TabIndex = 4;
             this.editButton2.Text = "2";
             this.editButton2.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.editButton2.UseSelectable = true;
             // 
             // editButton8
             // 
@@ -354,6 +369,7 @@
             this.editButton8.TabIndex = 5;
             this.editButton8.Text = "8";
             this.editButton8.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.editButton8.UseSelectable = true;
             // 
             // editButton6
             // 
@@ -364,6 +380,7 @@
             this.editButton6.TabIndex = 6;
             this.editButton6.Text = "6";
             this.editButton6.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.editButton6.UseSelectable = true;
             // 
             // editButton4
             // 
@@ -374,6 +391,7 @@
             this.editButton4.TabIndex = 7;
             this.editButton4.Text = "4";
             this.editButton4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.editButton4.UseSelectable = true;
             // 
             // editButton7
             // 
@@ -384,6 +402,7 @@
             this.editButton7.TabIndex = 8;
             this.editButton7.Text = "7";
             this.editButton7.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.editButton7.UseSelectable = true;
             // 
             // editButton3
             // 
@@ -394,6 +413,7 @@
             this.editButton3.TabIndex = 9;
             this.editButton3.Text = "3";
             this.editButton3.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.editButton3.UseSelectable = true;
             // 
             // editButton5
             // 
@@ -404,6 +424,7 @@
             this.editButton5.TabIndex = 10;
             this.editButton5.Text = "5";
             this.editButton5.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.editButton5.UseSelectable = true;
             // 
             // tabPage3
             // 
@@ -489,6 +510,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Style = MetroFramework.MetroColorStyle.Teal;
             this.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmMain_FormClosing);
             this.Load += new System.EventHandler(this.FrmMain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.metroStyleManager1)).EndInit();
             this.tabControl1.ResumeLayout(false);
@@ -502,14 +524,6 @@
         }
 
         #endregion
-        public MetroFramework.Controls.MetroButton btn_Bnet1;
-        public MetroFramework.Controls.MetroButton btn_Bnet2;
-        public MetroFramework.Controls.MetroButton btn_Bnet3;
-        public MetroFramework.Controls.MetroButton btn_Bnet4;
-        public MetroFramework.Controls.MetroButton btn_Bnet5;
-        public MetroFramework.Controls.MetroButton btn_Bnet6;
-        public MetroFramework.Controls.MetroButton btn_Bnet7;
-        public MetroFramework.Controls.MetroButton btn_Bnet8;
         private MetroFramework.Controls.MetroButton btn_PUBG_Restore;
         private MetroFramework.Controls.MetroButton btn_PUBG_Backup;
         private MetroFramework.Controls.MetroButton btn_Update;
@@ -524,20 +538,28 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.Button button3;
-        public MetroFramework.Controls.MetroButton editButton1;
-        public MetroFramework.Controls.MetroButton editButton2;
-        public MetroFramework.Controls.MetroButton editButton8;
-        public MetroFramework.Controls.MetroButton editButton6;
-        public MetroFramework.Controls.MetroButton editButton4;
-        public MetroFramework.Controls.MetroButton editButton7;
-        public MetroFramework.Controls.MetroButton editButton3;
-        public MetroFramework.Controls.MetroButton editButton5;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
+        private MetroFramework.Controls.MetroButton btn_Bnet1;
+        private MetroFramework.Controls.MetroButton btn_Bnet2;
+        private MetroFramework.Controls.MetroButton btn_Bnet3;
+        private MetroFramework.Controls.MetroButton btn_Bnet4;
+        private MetroFramework.Controls.MetroButton btn_Bnet5;
+        private MetroFramework.Controls.MetroButton btn_Bnet6;
+        private MetroFramework.Controls.MetroButton btn_Bnet7;
+        private MetroFramework.Controls.MetroButton btn_Bnet8;
+        private MetroFramework.Controls.MetroButton editButton1;
+        private MetroFramework.Controls.MetroButton editButton2;
+        private MetroFramework.Controls.MetroButton editButton8;
+        private MetroFramework.Controls.MetroButton editButton6;
+        private MetroFramework.Controls.MetroButton editButton4;
+        private MetroFramework.Controls.MetroButton editButton7;
+        private MetroFramework.Controls.MetroButton editButton3;
+        private MetroFramework.Controls.MetroButton editButton5;
     }
 }
 
